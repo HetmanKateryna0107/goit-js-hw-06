@@ -12,9 +12,9 @@ form.addEventListener("submit",(event)=>{
       } else {
       const userInfo= { email:email, password: password }
          console.log(userInfo);
-
+         form.reset()
       }
-      form.reset()
+     
   
     })
 

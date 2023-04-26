@@ -6,9 +6,9 @@ input.addEventListener("blur", (event) => {
     const text = event.target;
     if (text.value.length === Number(length) ){
       input.classList.add('valid');
-       input.classList.remuve('invalid') }    
+       input.classList.remove('invalid') }    
       else  { input.classList.add('invalid')
-    input.classList('valid')}
+    input.classList.remove('valid')}
  
      
     }
